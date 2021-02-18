@@ -1,0 +1,221 @@
+Publisher:
+  - id: 1
+    name: Addison Wesley
+    version: 0
+  - id: 2
+    name: Manning Publications
+    version: 0
+  - id: 3
+    name: O'Reilly Media
+    version: 0
+
+Author:
+  - id: 1
+    firstName: Joshua
+    lastName: Bloch
+    version: 0
+  - id: 2
+    firstName: Gavin
+    lastName: King
+    version: 0
+  - id: 3
+    firstName: Christian
+    lastName: Bauer
+    version: 0
+  - id: 4
+    firstName: Gary
+    lastName: Gregory
+    version: 0
+  - id: 5
+    firstName: Raoul-Gabriel
+    lastName: Urma
+    version: 0
+  - id: 6
+    firstName: Mario
+    lastName: Fusco
+    version: 0
+  - id: 7
+    firstName: Alan
+    lastName: Mycroft
+    version: 0
+  - id: 8
+    firstName: Andrew Lee
+    lastName: Rubinger
+    version: 0
+  - id: 9
+    firstName: Aslak
+    lastName: Knutsen
+    version: 0
+  - id: 10
+    firstName: Bill
+    lastName: Burke
+    version: 0
+  - id: 11
+    firstName: Scott
+    lastName: Oaks
+    version: 0
+
+Book:
+  - id: 1
+    title: Effective Java
+    publishingDate: 2008-05-08
+    publisher_id: 1
+    version: 0
+  - id: 2
+    title: Java Persistence with Hibernate
+    publishingDate: 2015-10-01
+    publisher_id: 2
+    version: 0
+  - id: 3
+    title: Java 8 in Action
+    publishingDate: 2014-08-28
+    publisher_id: 1
+    version: 0
+  - id: 4
+    title: Continuous Enterprise Development in Java
+    publishingDate: 2014-03-12
+    publisher_id: 3
+    version: 0
+  - id: 5
+    title: Enterprise JavaBeans 3.1
+    publishingDate: 2010-09-08
+    publisher_id: 3
+    version: 0
+  - id: 6
+    title: Java Performance The Definitive Guide
+    publishingDate: 2014-04-29
+    publisher_id: 3
+    version: 0
+    
+BookAuthor:
+  - bookid: 1
+    authorid: 1
+  - bookid: 2
+    authorid: 2
+  - bookid: 2
+    authorid: 3
+  - bookid: 2
+    authorid: 4
+  - bookid: 3
+    authorid: 5
+  - bookid: 3
+    authorid: 6
+  - bookid: 3
+    authorid: 7
+  - bookid: 4
+    authorid: 8
+  - bookid: 4
+    authorid: 9
+  - bookid: 5
+    authorid: 8
+  - bookid: 5
+    authorid: 10
+  - bookid: 6
+    authorid: 11
+
+Review:
+  - id: 1
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 1
+    version: 0
+    book_id: 1
+  - id: 2
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 1
+  - id: 3
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 0
+    version: 0
+    book_id: 1
+  - id: 4
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 1
+  - id: 5
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 1
+    version: 0
+    book_id: 2
+  - id: 6
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 2
+  - id: 7
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 3
+    version: 0
+    book_id: 2
+  - id: 8
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 2
+  - id: 9
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 3
+  - id: 10
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 3
+    version: 0
+    book_id: 3
+  - id: 11
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 3
+    version: 0
+    book_id: 3
+  - id: 12
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 4
+  - id: 13
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 4
+  - id: 14
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 0
+    version: 0
+    book_id: 4
+  - id: 15
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 1
+    version: 0
+    book_id: 4
+  - id: 16
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 5
+  - id: 17
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 3
+    version: 0
+    book_id: 5
+  - id: 18
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 2
+    version: 0
+    book_id: 5
+  - id: 19
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 1
+    version: 0
+    book_id: 5
+  - id: 20
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 2
+    version: 0
+    book_id: 6
+  - id: 21
+    comment: comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment comment 
+    rating: 4
+    version: 0
+    book_id: 6
